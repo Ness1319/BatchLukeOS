@@ -9,7 +9,7 @@ windowHeight = root.winfo_screenheight()
 display = tk.Canvas(root, width=windowWidth, height=windowHeight, bg="#000088")
 display.pack()
 
-with open("desktop/output.txt", "w"):
+  with open("desktop/output.txt", "w"):
 
 
 root.mainloop()
